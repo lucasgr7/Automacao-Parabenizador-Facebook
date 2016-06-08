@@ -31,7 +31,7 @@ class FacebookMap(object):
 				nomes.append(pessoa.text)
 
 		texts_boxes = self.browser.find_elements_by_class_name('uiTextareaNoResize')
-		x = 1
+		x = 0
 		for text_box in texts_boxes:
 			if(x <= len(texts_boxes)):
 				text_box.send_keys('Feliz aniversário ' + nomes[x] + " tudo de bom e felicidades :)")

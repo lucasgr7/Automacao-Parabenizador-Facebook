@@ -22,7 +22,7 @@ class FacebookMap(object):
 		btnEntrar = self.browser.find_element_by_id('u_0_m')
 		btnEntrar.click()
 
-	def AcessarAniversariantes(self):
+	def EnviarParabens(self):
 		self.browser.get('https://www.facebook.com/events/birthdays')
 		nomes_aniversariantes = self.browser.find_elements_by_class_name('_3ng2')
 		nomes = []

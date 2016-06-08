@@ -6,4 +6,4 @@ from Mapping import FacebookMap
 browser = webdriver.Firefox()
 proc = FacebookMap(browser)
 proc.Logar('email','senha')
-proc.AcessarAniversariantes()
+proc.EnviarParabens()

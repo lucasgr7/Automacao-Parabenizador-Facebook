@@ -1,8 +1,9 @@
-<h1>AUTOMAÇÃO PARABENIZADOR FACEBOOK</h1>
+# AUTOMAÇÃO PARABENIZADOR FACEBOOK
 
 É um projeto de estudo da automação para automaticamente parabenizar todos os aniversariantes da sua conta do facebook.
 
-Para executar você vai precisar:
+### Para executar você vai precisar:
+
 * Python 2.7 ou superior instalado
 * Navegador Firefox
 * Selenium
